@@ -5,7 +5,7 @@ There is all this talk about bitcoin and blockchain with the structure, how mini
 
 Blockchain technology is built around consensus algorithms which allow distributed nodes to share a common ledger. A fundamental dependency of these algorithms is a common network protocol to enable communication between participating nodes. Today, let's write a Python program from scratch to interact with a real Bitcoin node. This post will assume you're familiar with the fundamentals of blockchain technology. If you aren't, I would recommend checking out the [Bitcoin White Paper](https://bitcoin.org/bitcoin.pdf "Bitcoin White Paper") by [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto "Satoshi Nakamoto").
 
-Bitcoin nodes communicate with each other using the TCP protocol. Nodes will typically listen on port number 8333. For a detailed description of the bitcoin network protocol check out this resource.
+Bitcoin nodes communicate with each other using the TCP protocol. Nodes will typically listen on port number 8333. For a detailed description of the bitcoin network protocol [check out this resource](https://en.bitcoin.it/wiki/Protocol_documentation "check out this resource").
 
 Today, we are going to write a Python program to connect to a Bitcoin node and fetch the details of a specific transaction. Here is a diagram of the message flow that will be developed.
 
